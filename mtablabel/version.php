@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$module->version   = 2013041000;       // The current module version (Date: YYYYMMDDXX)
+$module->version   = 2013041001;       // The current module version (Date: YYYYMMDDXX)
 $module->requires  = 2012061700;    // Requires this Moodle version
 $module->component = 'mod_mtablabel'; // Full name of the plugin (used for diagnostics)
 $module->cron      = 0;
