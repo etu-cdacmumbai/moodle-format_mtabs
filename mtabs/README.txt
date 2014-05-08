@@ -18,8 +18,7 @@ Configuration hacks:
 
 Finally, note that the tabbed display is only available in non-edit mode.
 Edit mode (teachers) will display the course in standard topics format, 
-in order to play with indentation and so on. No 100% intuitive, but it's 
-beyond the objectives of the format.
+in order to play with indentation and so on.
 
 That's all, enjoy. 
 
