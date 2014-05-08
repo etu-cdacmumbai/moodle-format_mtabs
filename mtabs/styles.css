@@ -1,0 +1,282 @@
+/*
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/**
+ * @package    format_mtabs
+ * @copyright  2013 onwards C-DAC Mumbai {@link http://www.cdacmumbai.in}
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+ 
+* {
+    outline: none;
+    -moz-outline-style: none;
+}
+
+/*Course Area*/
+/*=======================================================================*/
+.course-wrapper
+{
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.course-title
+{
+    float: left;
+    font-size: 1.5em;
+    border: 0;
+}
+
+.bread-crumb
+{
+    float: left;
+    padding: 5px;
+}
+
+/* CSS of chapters list */
+/*=======================================================================*/
+.chapters-list-container
+{
+    overflow: hidden;
+    height: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.chapters-list-container select
+{
+    background: url("../../../../course/format/mtabs/pix/grey-grad-40.jpg") repeat-x scroll left bottom transparent;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    border: 1px solid #CCC;
+    height: 30px;
+    cursor: pointer;
+}
+
+.chapters-list-container select option
+{
+    padding: 5px;
+}
+
+.chapters-list-container select option:hover
+{
+
+}
+
+/* CSS of horizantal tab module */
+/*=======================================================================*/
+.moodle-tab-module
+{
+    clear: both;
+    width: 100%;
+}
+
+.dropshadow-twopx
+{
+    text-shadow: #666 1px 1px 1px;
+}
+
+div.course-section
+{
+    position: relative;
+    margin: 0;
+}
+
+div.tab-content
+{
+    min-height: 223px;
+    padding: 30px 10px 10px 10px;
+}
+
+div.section0-tab-content
+{
+    min-height: 223px;
+    padding: 10px;
+}
+
+.tab-content ul.section
+{
+    line-height: 1.4em;
+}
+
+ul.moodle-tabs
+{
+    display: block;
+    padding: 16px 14px 0 0;
+}
+
+div.course-section div.moodle-tabs-wrap
+{
+    position: relative;
+    margin-top: 10px;
+    color: #FF0000;
+    line-height: normal;
+    width: 100%;
+    height: 85px;
+}
+
+div.course-section ul.moodle-tabs
+{
+    font-size: 12px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+ul.moodle-tabs li
+{
+    list-style: none outside none;
+    margin-right: 2px;
+    height: 27px;
+    display: inline-block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 0;
+    width: 117px;
+}
+
+div.course-section ul.moodle-tabs li
+{
+    min-width: 60px;
+}
+
+ul.moodle-tabs li.activity a
+{
+    float:left;
+    background:url("../../../../course/format/mtabs/pix/tabright.png") no-repeat left top;
+    width:110px;
+    margin:0px;
+    padding:0px 0px 0px 11px; /*controls the space between the left and right image */
+    text-decoration:none;
+    border:none;
+    cursor: pointer;
+}
+
+ul li.modtype_label div.no-overflow > div.no-overflow, ul li.modtype_label div.no-overflow p
+{
+    overflow: initial;
+    font-size: 14px !important;
+    font-weight: bold;
+    margin: 15px 0 0.15em !important;
+}
+
+div.tab-wrapper ul li a:link
+{
+   color: blue !important;
+}
+
+div.tab-wrapper ul li a:visited
+{
+   color: purple !important;
+}
+
+div.tab-wrapper ul li a:active
+{
+   color: red !important;
+}
+
+ul.moodle-tabs li.activity a span
+{
+    height:100px;
+    display:block;
+    width:100px;
+    padding: 10px 2px 3px 0px;
+    color:#3B3B3B;
+    border-bottom:none;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+/*ul.horizontal-tabs a span {
+	float:none;
+}*/
+
+ul.moodle-tabs li.activity a:hover,
+ul.moodle-tabs li.activity a.selected,
+ul.moodle-tabs li.activity a.selected:hover
+{
+    background-position: 1% -118px;
+    text-decoration: none;
+    width: 104px;
+}
+
+ul.moodle-tabs li.activity a:hover span,
+ul.moodle-tabs li.activity a.selected span,
+ul.moodle-tabs li.activity a.selected:hover span
+{
+    background-position: 100% -118px;
+    border-bottom: medium none;
+    text-decoration: none;
+}
+
+.mtab-span
+{
+    margin: 0;
+    padding-top: 6px;
+    text-align: center;
+}
+
+.mtab-img
+{
+    border: medium none;
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+}
+
+.mtab-name
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+div.tab-wrapper
+{
+    clear: left;
+    border: 1px solid #D4D4D4;
+    border-radius: 5px 5px 5px 5px;
+    min-height: 150px;
+}
+
+div.tab-wrapper ul
+{
+    list-style-type: none;
+}
+
+span.hidden-section-msg
+{
+    padding-top: 20px;
+    text-align: center;
+    color: #ff0000;
+}
+
+span.empty-section-msg
+{
+    padding-top: 20px;
+    text-align: center;
+    color: #0000ff;
+}
