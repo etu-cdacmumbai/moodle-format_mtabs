@@ -1,7 +1,7 @@
 moodle-format_mtabs
 ==========================
 ## About M-Tabs ##
-> Moodle Tabs (M-Tabs) is a Moodle course format which renders Moodle course content in a horizontal tabbed format with one section content visible at a time. A ‘Tab’ in the section can be created using Moodle-Tab (M-Tab) Label. M-Tab Label is a modified version of the already existing Moodle resource called ‘Label’. It comprises an icon and a text label.
+Moodle Tabs (M-Tabs) is a Moodle course format which renders Moodle course content in a horizontal tabbed format with one section content visible at a time. A ‘Tab’ in the section can be created using Moodle-Tab (M-Tab) Label. M-Tab Label is a modified version of the already existing Moodle resource called ‘Label’. It comprises an icon and a text label.
 
 ## How to install M-Tabs? ##
 - Extract the contents of the downloaded archive to a directory. This will create two directories viz. ‘mtabs’ and ‘mtablabel’
@@ -21,7 +21,7 @@ Note: *If the plugin installation fails, then you have possibly copied the extra
 - Position the M-Tab Label created, appropriately. This M-Tab Label will be displayed as a Tab and will contain all the resources/activities listed below it until another M-Tab Label is created.
 - Turn editing off to view the course in M-Tabs format.
 
-Note:
-1. *For better display, use of icons with each M-Tab Label has been made mandatory*
+Note:<br/>
+1. *For better display, use of icons with each M-Tab Label has been made mandatory*<br/>
 2. *Every Topic/Week in a course should have at least one M-Tab Label*
 
